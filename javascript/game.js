@@ -14,6 +14,7 @@ class Game {
       this.endGame = new EndGame(this.ctx);
       this.platformbonus = new Platformbonus(this.ctx);
       this.platformbonus2 = new  Platformbonus2 (this.ctx);
+      this.platformbonus3 = new Platformbonus3(this.ctx);
       this.platform = [new Platform(this.ctx)];
     this.tickPlatform = 0;
     this.fire = [];
@@ -108,6 +109,7 @@ class Game {
     this.endGame.move();
     this.platformbonus.move();
     this.platformbonus2.move();
+    this.platformbonus3.move();
   }
 
   checkCollisions() {
@@ -115,6 +117,7 @@ class Game {
     const platforms = this.platform.concat(this.highplatform);
     platforms.push(this.platformbonus);
     platforms.push(this.platformbonus2);
+    platforms.push(this.platformbonus3);
     if (!platforms.some((plat) => plat.collide(this.player))) {
         this.player.maxY = FLOOR;
       }
@@ -275,5 +278,6 @@ class Game {
       this.endGame.draw();
       this.platformbonus.draw();
       this.platformbonus2.draw();
+      this.platformbonus3.draw();
     }
 }
