@@ -1,0 +1,219 @@
+#canvas {
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  #game-over-section {
+    display: none;
+    
+  }
+  #add-name-btn{
+    display: flex;
+    width: 300px;
+    height: 24px;
+    color: white;
+    border-radius: 5px;
+    background-image: url(./images/imagenfondohtml.webp);
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    }
+  .inputName {
+    display: flex;
+    width: 300px;
+    height: 20px;
+    color: white;
+    justify-content: center;
+    border-radius: 5px;
+    background-image: url(./images/imagenfondohtml.webp);
+    border: 1px solid white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .colocaCanvas {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .list{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  ol{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    color:  white;
+    background-image: url(./images/imagenfondohtml.webp);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-top: 7px;
+  
+  
+  }
+  
+  .enterName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+   }
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .startbtn {
+    color: white;
+    background-image: url(./images/imagenfondohtml.webp);
+    border: 1px solid white;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  body {
+    background-image: url(./images/imagenfondohtml.webp);
+    background-size: cover;
+  }
+  
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 5px 2px grey;
+  }
+  h2{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 5px 2px grey;
+    margin-bottom: 30px;
+  }
+  
+  .title{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 5px 2px grey;
+    margin-bottom: 80px;
+  }
+  .text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./images/imagenfondohtml.webp);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin-top: 0%;
+    margin-right: 10px;
+    margin-bottom: 0.5%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border-radius: 5px;
+    }
+   .text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./images/imagenfondohtml.webp);
+    color: white;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin-top: 0%;
+    margin-left:  10px;
+    margin-bottom: 0.5%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border-radius: 5px;
+   }
+   .text3{
+   font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./images/imagenfondohtml.webp);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin-top: 0%;
+    margin-right: 10px;
+    margin-bottom: 0.5%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border-radius: 5px;
+   }
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+   
+  
+  }
+  .row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+   }
+  
+   .container{
+    margin-top: 100px;
+   }
+  
+  a{
+    text-decoration: none;
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -90px;
+    margin-left: 10px;
+  }
+  .rigth{
+    margin-left: 100px;
+    margin-bottom: 8px;
+  }
+  .about{
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./images/imagenfondohtml.webp);
+    color: white;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin-left:  300px;
+    margin-right: 300px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border-radius: 5px;
+  }
